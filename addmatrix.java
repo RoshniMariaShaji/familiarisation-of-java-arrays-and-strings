@@ -31,8 +31,11 @@ class addmatrix
 		{
 			System.out.println("New matrix is:");
 			for(i=0;i<row1;i++)
+            {
 				for(j=0;j<col1;j++)
-			System.out.println(c[i][j]);
+			        System.out.print(c[i][j]+" ");
+                System.out.println();
+            }
 		}
 		else
 		{
